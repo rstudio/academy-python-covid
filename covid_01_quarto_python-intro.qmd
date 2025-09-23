@@ -1,16 +1,18 @@
 ---
 title: "Python Basics"
 format: html
+
 ---
 # Instructions
 
-Welcome to your first project milestone! In this project, you will use Python to investigate real data related to COVID-19.
+Welcome to your first project milestone!
 
-We will split our work into milestones that build on each other to iteratively explore the data.
+In this project, you will use Python to investigate real data related to
+[covid](https://rsacdn.link/milestones/internal/v2/python/covid/assets/covid_dictionary.html).
+
+We'll split this project into milestones that build on each other to iteratively explore the data.
 
 ## How to complete a milestone
-
-Each milestone will require you to read and edit a Quarto document, like this one. **To learn how to use Quarto in Positron, see here: https://quarto.org/docs/get-started/hello/positron.html.
 
 For each milestone, you will need to: 
 
@@ -20,13 +22,11 @@ For each milestone, you will need to:
 
 Remember, being able to teach yourself new parts of a computer language is what will make you a truly competent open source programmer---and we are here to help.
 
-You'll share your extension with your groupmates at the weekly meeting, and show them how they could do the same.
+You'll share your extension with your groupmates at the weekly meeting, and show them how they could do the same. 
 
 ## The `covid` data set 
 
-The data comes from the The COVID Tracking Project: https://covidtracking.com/.
-
-To learn more about the variables contained in the data set, refer to the data dictionary: https://rsacdn.link/milestones/internal/python/covid/assets/covid_dictionary.html
+To learn more about the variables contained in the data set, refer to the data dictionary [here](https://rsacdn.link/milestones/internal/v2/python/covid/assets/covid_dictionary.html).
 
 # Milestone
 
@@ -93,7 +93,6 @@ Write your code in the following chunk:
 
 ```{python}
 #| label: 'recreation_2'
-
 ```
 
 ## Extension

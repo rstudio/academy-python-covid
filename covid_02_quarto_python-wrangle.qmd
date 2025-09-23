@@ -1,15 +1,15 @@
 ---
-title: "Create and select columns"
+title: "Wrangle rows and columns"
 format: html
 ---
-
 # Instructions
 
 This week, you learned about several more pandas methods and attributes. These functions help you work with the columns in your data set.
 
 You'll use these skills to add new columns that calculate the cumulative number of cases and deaths across states.
 
-To learn more about the variables contained in the data set, refer to the data dictionary: https://rsacdn.link/milestones/internal/python/covid/assets/covid_dictionary.html
+To learn more about the variables contained in the data set, refer to the data dictionary
+[here](https://rsacdn.link/milestones/internal/v2/python/covid/assets/covid_dictionary.html).
 
 # Milestone
 
@@ -25,9 +25,10 @@ from matplotlib import rcParams
 pd.set_option('mode.copy_on_write', True)
 pd.set_option('display.max_columns', None)
 rcParams.update({'savefig.bbox': 'tight'}) # Keeps plotnine legend from being cut off
+
 ```
 
-## Create and select columns
+## Wrangle rows and columns
 
 In this milestone, you'll create a new variable that calculates the cumulative values of `cases` and `deaths` across states. 
 
@@ -53,7 +54,7 @@ Run the code below to see a table.
 #| label: 'recreate-this'
 #| message: false
 
-solution = pd.read_csv('data/milestone03.csv')
+solution = pd.read_csv('data/milestone02.csv')
 solution
 ```
 
@@ -93,17 +94,16 @@ Your next task is to create two new columns, `cumul_cases_millions` and `cumul_d
 
 ### Part 3 - Visualize
 
-Using the File Explorer on the left, navigate to the `images/` directory, then click on `milestone03.png` to open an image in the Editor pane.
+Using the File Explorer on the left, navigate to the `images/` directory, then click on `milestone02.png` to open an image in the Editor pane
 
-You should see a line plot that displays millions of cumulative cases over time for the state of New York.
+Your task is to recreate this plot using your updated version of `subset`.
 
-Your task is to recreate this plot using your updated version of `subset`. Use the chunk below.
+Use the chunk below to recreate this plot.
 
 ```{python}
 #| label: 'recreation-visualize'
 
 ```
-
 
 ## Extension
 

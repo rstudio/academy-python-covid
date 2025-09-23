@@ -8,7 +8,8 @@ This week, you learned how to write and apply your own functions.
 
 You'll use these skills to add a column that recodes integer month (i.e., 1, 2) to month names (i.e., January, February).
 
-To learn more about the variables contained in the data set, refer to the data dictionary: https://rsacdn.link/milestones/internal/python/covid/assets/covid_dates_split_dictionary.html
+To learn more about the variables contained in the data set, refer to the data dictionary
+[here](https://rsacdn.link/milestones/internal/v2/python/covid/assets/covid_dates_split_dictionary.html).
 
 # Milestone
 
@@ -27,7 +28,7 @@ rcParams.update({'savefig.bbox': 'tight'}) # Keeps plotnine legend from being cu
 
 ```
 
-## Create and select columns
+## Write functions
 
 As we work towards building polished reports and plots, it may be useful to include the month name in our data set rather than the date. In this milestone, you'll create a new variable that contains the month name associated with a month number.
 
@@ -67,6 +68,7 @@ an integer as input and return the associated month name:
 
 ```{python}
 #| label: 'recreation-function'
+
 
 ```
 

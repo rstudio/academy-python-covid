@@ -1,0 +1,36 @@
+---
+title: "Track III: Transform and model"
+format: html
+---
+
+# Instructions
+
+For this final milestone, apply what you have learned about data transformation and modeling to further explore the COVID-19 data set. Consider the following steps:
+
+1. Read in your data
+2. Wrangle your data so it is in a format that is ready for modeling
+3. Create a simple regression model and inspect your model results
+
+To learn more about the variables contained in the data set, refer to the data dictionary
+[here](https://rsacdn.link/milestones/internal/v2/python/covid/assets/covid_dictionary.html){target="_blank" rel="noopener noreferrer"}.
+You can also view this file by navigating to `data/covid_dictionary.html` in the files tab on the right.
+
+
+# Milestone
+
+```{python}
+#| label: 'setup'
+#| include: false
+
+# Import your packages here
+import pandas as pd
+from matplotlib import rcParams
+
+# Set some options
+pd.set_option('display.max_columns', None)
+pd.set_option('mode.copy_on_write', True)
+rcParams.update({'savefig.bbox': 'tight'}) # Keeps plotnine legend from being cut off
+```
+
+
+## Transform and model

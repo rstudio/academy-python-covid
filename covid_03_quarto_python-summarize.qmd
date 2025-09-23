@@ -1,5 +1,5 @@
 ---
-title: "Group and summarize data"
+title: "Summarize data"
 format: html
 ---
 # Instructions
@@ -8,7 +8,8 @@ This week, you learned about several more pandas methods.
 
 In this milestone, you'll group the data by state and then summarize the results to determine the top ten states with the highest COVID-related deaths.
 
-To learn more about the variables contained in the data set, refer to the data dictionary: https://rsacdn.link/milestones/internal/python/covid/assets/covid_dictionary.html
+To learn more about the variables contained in the data set,
+refer to the data dictionary [here](https://rsacdn.link/milestones/internal/v2/python/covid/assets/covid_dictionary.html).
 
 # Milestone
 
@@ -42,9 +43,9 @@ Before you begin, you will need to import the `covid` data set:
 
 Work in the code chunk below:
 
+
 ```{python}
 #| label: 'recreation-import'
-
 ```
 
 ### Part 2 - Compute total deaths
@@ -64,16 +65,15 @@ Run the code below to see a table.
 
 ```{python}
 #| label: 'solution'
-solution = pd.read_csv('data/milestone05.csv')
+solution = pd.read_csv('data/milestone03.csv')
 solution
 ```
-
 
 Your task is to use what you've learned about functions and grouped summaries to transform `covid` into this table.
 
 You will need to:
 
-1. Group the data  by `state` using `.groupby()`
+1. Group the data by `state` using `.groupby()`
 2. Summarize the total value of `cases` and `deaths` for each group
 3. Use `.nlargest()` to find the top ten states with the highest total value of `deaths`
 
@@ -95,9 +95,7 @@ cases_deaths.reset_index(drop=True).compare(solution)
 
 ### Part 4 - Visualize it
 
-Using the File Explorer on the left, navigate to the `images/` directory, then click on `milestone05.png` to open an image in the Editor pane. 
-
-You should see a plot that displays the total deaths for the ten states with the highest values.
+Using the File Explorer on the left, navigate to the `images/` directory, then click on `milestone03.png` to open an image in the Editor pane
 
 Use the new `cases_deaths` data to recreate the plot.
 
