@@ -9,7 +9,7 @@ This week, you learned about several more pandas methods.
 In this milestone, you'll group the data by state and then summarize the results to determine the top ten states with the highest COVID-related deaths.
 
 To learn more about the variables contained in the data set,
-refer to the data dictionary [here](https://rsacdn.link/milestones/internal/v2/python/covid/assets/covid_dictionary.html).
+refer to the data dictionary [here](https://rstudio.github.io/academy-python-covid/assets/covid_dictionary.html).
 
 # Milestone
 
