@@ -9,7 +9,7 @@ This week, you learned how to write and apply your own functions.
 You'll use these skills to add a column that recodes integer month (i.e., 1, 2) to month names (i.e., January, February).
 
 To learn more about the variables contained in the data set, refer to the data dictionary
-[here](https://rsacdn.link/milestones/internal/v2/python/covid/assets/covid_dates_split_dictionary.html).
+[here](https://rstudio.github.io/academy-python-covid/assets/covid_dates_split_dictionary.html).
 
 # Milestone
 

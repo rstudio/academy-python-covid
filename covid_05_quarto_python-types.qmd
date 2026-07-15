@@ -9,7 +9,7 @@ This week, you learned about three data types in pandas---strings, datetimes, an
 In this milestone, you'll parse the dates in the data set, extract the month of each date, and then create a variable that records whether the COVID case was for the spring, summer, fall, or winter.
 
 To learn more about the variables contained in the data set, refer to the data dictionary
-[here](https://rsacdn.link/milestones/internal/v2/python/covid/assets/covid_dictionary.html).
+[here](https://rstudio.github.io/academy-python-covid/assets/covid_dictionary.html).
 
 # Milestone
 

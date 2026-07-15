@@ -9,7 +9,7 @@ This week, you learned about several more pandas methods and attributes. These f
 You'll use these skills to add new columns that calculate the cumulative number of cases and deaths across states.
 
 To learn more about the variables contained in the data set, refer to the data dictionary
-[here](https://rsacdn.link/milestones/internal/v2/python/covid/assets/covid_dictionary.html).
+[here](https://rstudio.github.io/academy-python-covid/assets/covid_dictionary.html).
 
 # Milestone
 

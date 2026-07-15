@@ -8,7 +8,7 @@ format: html
 Welcome to your first project milestone!
 
 In this project, you will use Python to investigate real data related to
-[covid](https://rsacdn.link/milestones/internal/v2/python/covid/assets/covid_dictionary.html).
+[covid](https://rstudio.github.io/academy-python-covid/assets/covid_dictionary.html).
 
 We'll split this project into milestones that build on each other to iteratively explore the data.
 
@@ -26,7 +26,7 @@ You'll share your extension with your groupmates at the weekly meeting, and show
 
 ## The `covid` data set 
 
-To learn more about the variables contained in the data set, refer to the data dictionary [here](https://rsacdn.link/milestones/internal/v2/python/covid/assets/covid_dictionary.html).
+To learn more about the variables contained in the data set, refer to the data dictionary [here](https://rstudio.github.io/academy-python-covid/assets/covid_dictionary.html).
 
 # Milestone
 
