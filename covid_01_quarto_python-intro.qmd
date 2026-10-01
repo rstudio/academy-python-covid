@@ -1,7 +1,6 @@
 ---
 title: "Python Basics"
 format: html
-
 ---
 # Instructions
 
@@ -75,7 +74,6 @@ cases = covid['cases']
 deaths = covid['deaths']
 state = covid['state']
 ```
-
 
 ### Part 3
 

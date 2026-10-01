@@ -63,26 +63,26 @@ To recreate this table, you will need to:
   -  Months 4, 5, 6 = 'Spring'
   -  Months 7, 8, 9 = 'Summer'
   -  Months 10, 11, 12 = 'Fall'
-  
-5. Apply your function to the data set to create a new column that recodes the month integers to seasons.
+
+4. Apply your function to the data set to create a new column that recodes the month integers to seasons.
 
 Work in the code chunk below. Save the result as `covid`.
 
-```{python recreation}
+```{python}
 #| label: 'recreation-seasons'
 
 ```
 
 Run the following code chunk to test whether you have the same answer as the solution:
 
-```{python compare}
+```{python}
 #| label: 'compare'
 
 # If your answer is correct, the comparison should return an empty DataFrame.
 covid.compare(solution)
 ```
 
-## Part 3 - The role of factor orders in visualizations
+### Part 3 - The role of category order in visualizations
 
 Now that you have a `season` variable, you can compute and visualize summaries for each season in the same manner as in previous milestones. Run the chunk below to view a summary table.
 
@@ -142,7 +142,6 @@ Using the code chunk below, investigate a research question about this data, usi
 2. Is there a month-by-month pattern for COVID-19 deaths (or hospitalizations)? Does this vary if you focus on certain states or regions?
 3. Looking within a month, do you see any patterns in deaths, case numbers, or hospitalizations based on calendar day? Day of the week?
 4. [any other research question of interest]
-
 
 Alternately, working with a data set of your own, complete the following:
 

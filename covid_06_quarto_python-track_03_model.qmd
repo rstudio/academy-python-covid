@@ -12,9 +12,7 @@ For this final milestone, apply what you have learned about data transformation 
 3. Create a simple regression model and inspect your model results
 
 To learn more about the variables contained in the data set, refer to the data dictionary
-[here](https://rstudio.github.io/academy-python-covid/assets/covid_dictionary.html){target="_blank" rel="noopener noreferrer"}.
-You can also view this file by navigating to `data/covid_dictionary.html` in the files tab on the right.
-
+[here](https://rstudio.github.io/academy-python-covid/assets/covid_dictionary.html).
 
 # Milestone
 
@@ -30,6 +28,5 @@ from matplotlib import rcParams
 pd.set_option('display.max_columns', None)
 rcParams.update({'savefig.bbox': 'tight'}) # Keeps plotnine legend from being cut off
 ```
-
 
 ## Transform and model
