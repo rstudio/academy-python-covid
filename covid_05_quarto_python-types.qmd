@@ -79,7 +79,7 @@ Run the following code chunk to test whether you have the same answer as the sol
 #| label: 'compare'
 
 # If your answer is correct, the comparison should return an empty DataFrame.
-covid.round(10).compare(solution.round(10))
+covid.compare(solution)
 ```
 
 ## Part 3 - The role of factor orders in visualizations
