@@ -22,6 +22,8 @@ Additionally, there may be anomalies in the data as a result of data entry error
 > Individual state/territory data pages such as [Wyoming’s](https://covidtracking.com/data/state/wyoming), all of which are accessible from [our main data page](https://covidtracking.com/data), include a link at the top of the page to the ["Data sources and screenshots"](https://screenshots.covidtracking.com/wyoming/) for that state as well as a link to the ["Notes, data anomalies, and official cautions"](https://covidtracking.com/data/state/wyoming/notes) page for that state...
 We discuss anomalies, ambiguities, warnings, and methodological changes for each state’s data on each state’s notes page. If you notice anything odd about a state’s data, this is the first place to look for an explanation.
 
+**A note on negative values**: negative values in the tests and cases variables represent data corrections made by states. In situations where cases were over-reported, a negative value appears on days when overall case counts were corrected.
+
 ### Variables: `covid.csv`
 
 `date`: Date on which data was collected by The COVID Tracking Project.

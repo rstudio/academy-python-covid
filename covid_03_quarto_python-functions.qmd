@@ -113,4 +113,3 @@ Alternately, working with a data set of your own, complete the following:
 #| label: 'extension'
 
 ```
-

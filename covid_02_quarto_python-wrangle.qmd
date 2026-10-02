@@ -108,7 +108,7 @@ Use the chunk below to recreate this plot.
 
 Using the code chunk below, investigate a research question about this data, using the additional data wrangling skills you learned this week. Some ideas:
 
-1. Milestone 2 focused on patterns in `cases` and `deaths` over time, just within New York. What patterns do you see in the _ratio_ of `deaths` to `cases`, over time, within New York and elsewhere? (Compare states of your choosing.)
+1. This milestone focused on patterns in `cases` and `deaths` over time, just within New York. What patterns do you see in the _ratio_ of `deaths` to `cases`, over time, within New York and elsewhere? (Compare states of your choosing.)
 
 2. Based on _either_ `cases` or `deaths`, divide this data into groups of your choosing (e.g. low/medium/high, above/below a national average, etc.) and explore patterns based on these groups.
 
@@ -124,4 +124,3 @@ Alternately, working with a data set of your own, complete the following:
 #| label: 'extension'
 
 ```
-

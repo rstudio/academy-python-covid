@@ -42,7 +42,6 @@ Before you begin, you will need to import the `covid` data set:
 
 Work in the code chunk below:
 
-
 ```{python}
 #| label: 'recreation-import'
 ```
@@ -52,6 +51,7 @@ Work in the code chunk below:
 Run the code below to compute the total values of `deaths` for the state of New York.
 
 ```{python}
+#| label: 'ny-deaths'
 subset = covid.loc[covid['state'] == 'NY']
 subset['deaths'].sum()
 ```
@@ -63,8 +63,8 @@ Next, you'll compute the summary measure of total `deaths` for each state.
 Run the code below to see a table.
 
 ```{python}
-#| label: 'solution'
-solution = pd.read_csv('data/milestone03.csv')
+#| label: 'recreate-this'
+solution = pd.read_csv('data/milestone04.csv')
 solution
 ```
 
@@ -94,7 +94,7 @@ cases_deaths.reset_index(drop=True).compare(solution)
 
 ### Part 4 - Visualize it
 
-Using the File Explorer on the left, navigate to the `images/` directory, then click on `milestone03.png` to open an image in the Editor pane
+Using the File Explorer on the left, navigate to the `images/` directory, then click on `milestone04.png` to open an image in the Editor pane
 
 Use the new `cases_deaths` data to recreate the plot.
 
@@ -121,9 +121,7 @@ Alternately, working with a data set of your own, complete the following:
 2. Use `.groupby()` and `.apply()` or `.agg()` to produce a summary table from your data 
 3. Create a related graph of this data subset using plotnine
 
-
 ```{python}
 #| label: 'extension'
 
 ```
-
