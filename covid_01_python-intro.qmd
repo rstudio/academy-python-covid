@@ -67,6 +67,7 @@ Now that `covid` is loaded, run the following code chunk, which will pull out th
 
 ```{python}
 #| label: 'save_columns'
+#| error: true
 
 # This code may look unfamiliar.
 # Don't worry, we will cover this in next week's tutorials. 
